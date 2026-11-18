@@ -4,11 +4,11 @@
    PALETA DE LA INVITACIÓN  (usar como bg-vino, text-marron...)
    ═══════════════════════════════════════════════════════════ */
 @theme {
-  --color-rosa: #fbf0ee;        /* palo de rosa suave: fondo del contenido */
+  --color-rosa: #fdf6f4;        /* palo de rosa suave: fondo del contenido */
   --color-nacar: #fffaf8;       /* blanco cálido: bandas y arcos */
   --color-rosa-claro: #faeeec;
-  --color-tinta: #c4838b;       /* rosa muy oscuro: texto sobre rosa y sobre papel */
-  --color-vino: #c4838b;        /* alias de tinta (compatibilidad) */
+  --color-tinta: #b06a76;       /* rosa muy oscuro: texto sobre rosa y sobre papel */
+  --color-vino: #b06a76;        /* alias de tinta (compatibilidad) */
   --color-marron: #9e5c66;
   --color-crema: #fbf6f4;
   --color-papel: #f8f1ef;
@@ -34,11 +34,11 @@
 }
 
 .icono-marron {
-  background-color: #c4838b;
+  background-color: #b06a76;
 }
 
 .icono-tinta {
-  background-color: #c4838b;
+  background-color: #b06a76;
 }
 
 .icono-crema {
@@ -372,7 +372,7 @@
   outline: 1px solid rgba(199, 164, 103, 0.4);
   outline-offset: 3px;
   border-radius: 999px;
-  color: #c4838b;
+  color: #b06a76;
   font-family: 'Cormorant Garamond', serif;
   font-weight: 600;
   font-size: 1.05rem;
@@ -389,7 +389,7 @@
   position: absolute;
   inset: 0;
   z-index: -1;
-  background: #c4838b;
+  background: #b06a76;
   transform: translateY(101%);
   transition: transform 0.45s cubic-bezier(0.22, 1, 0.36, 1);
 }
@@ -441,11 +441,11 @@
 
 /* Fondo de todo el contenido: palo de rosa suave, como en NombresFlores */
 #contenido-principal {
-  background-color: #fbf0ee;
+  background-color: #fdf6f4;
 }
 
 .franja-texto {
-  color: #a67f3e;
+  color: #a98532;
 }
 
 .franja-brillo {

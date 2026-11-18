@@ -151,27 +151,27 @@ const bordeSello =
 
         <!-- Encabezado -->
         <header class="encabezado">
-            <p class="font-charm text-[#c4838b] text-[clamp(1.15rem,5.2vw,1.35rem)] tracking-[0.06em]">
+            <p class="font-charm text-[#b06a76] text-[clamp(1.15rem,5.2vw,1.35rem)] tracking-[0.06em]">
                 {anuncio}
             </p>
             {/* Great Vibes sin mayúsculas forzadas ni espaciado entre
                 letras: esa cursiva no los tolera. Su "&" es propio y se
                 lee bien, no hace falta traerlo de otra fuente. */}
             <h1
-                class="nombres-portada font-great-vibes text-[#c4838b] text-[clamp(2.3rem,11vw,2.95rem)] leading-[1.25] mt-1 whitespace-nowrap"
+                class="nombres-portada font-great-vibes text-[#b06a76] text-[clamp(2.3rem,11vw,2.95rem)] leading-[1.25] mt-1 whitespace-nowrap"
             >
                 {nombre1}<span class="mx-[0.28em]">&amp;</span>{nombre2}
             </h1>
             <div class="adorno" aria-hidden="true">
                 <span></span><i></i><span></span>
             </div>
-            <p class="font-cormorant text-[#a67f3e] text-[0.95rem] tracking-[0.32em]">
+            <p class="font-cormorant font-medium text-[#a98532] text-[0.95rem] tracking-[0.32em]">
                 {fechaCorta}
             </p>
             {
                 invitado && (
                     <p
-                        class={`font-charm text-[#c4838b] leading-[1.5] mt-4 max-w-[19rem] mx-auto ${cuerpoInvitado}`}
+                        class={`font-charm text-[#b06a76] leading-[1.5] mt-4 max-w-[19rem] mx-auto ${cuerpoInvitado}`}
                     >
                         {invitado}
                     </p>
@@ -214,10 +214,10 @@ const bordeSello =
                                 <div class="tarjeta-adorno" aria-hidden="true">
                                     <span></span><i></i><span></span>
                                 </div>
-                                <p class="font-great-vibes text-[#c4838b] text-[1.45rem] leading-[1.3] whitespace-nowrap">
+                                <p class="font-great-vibes text-[#b06a76] text-[1.45rem] leading-[1.3] whitespace-nowrap">
                                     {nombre1} &amp; {nombre2}
                                 </p>
-                                <p class="font-cormorant text-[#a67f3e] text-[0.6rem] tracking-[0.32em] mt-1">
+                                <p class="font-cormorant font-medium text-[#a98532] text-[0.6rem] tracking-[0.32em] mt-1">
                                     {fechaCorta}
                                 </p>
                             </div>
@@ -530,7 +530,7 @@ const bordeSello =
         letter-spacing: 0.1em;
         text-indent: 0.1em;
         text-transform: uppercase;
-        color: #c4838b;
+        color: #b06a76;
     }
 
     .tarjeta-adorno {

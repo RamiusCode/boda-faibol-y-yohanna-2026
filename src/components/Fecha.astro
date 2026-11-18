@@ -24,8 +24,8 @@ const datos = [
     </div>
 
     <h2
-        style="color:#c4838b"
-        class="franja-texto relative font-callingstone text-[#c4838b] text-center text-[clamp(0.75rem,3.8vw,1.02rem)] tracking-[0.1em] leading-[2.2]"
+        style="color:#b06a76"
+        class="franja-texto relative font-callingstone text-[#b06a76] text-center text-[clamp(0.75rem,3.8vw,1.02rem)] tracking-[0.1em] leading-[2.2]"
     >
         {titulo.map((linea) => (
             <span class="block whitespace-nowrap">{linea}</span>
@@ -51,18 +51,18 @@ const datos = [
                            centra contando ese hueco y las letras quedan
                            corridas a la izquierda.
                         */}
-                        <h3 class="font-cormorant font-medium text-[#c9a45f] text-[clamp(1rem,4.6vw,1.15rem)] tracking-[0.24em] [text-indent:0.24em] whitespace-nowrap">
+                        <h3 class="font-cormorant font-medium text-[#a98532] text-[clamp(1rem,4.6vw,1.15rem)] tracking-[0.24em] [text-indent:0.24em] whitespace-nowrap">
                             {dato.rotulo}
                         </h3>
                         <span class="fecha-raya" aria-hidden="true"></span>
                         <div class="mt-2">
                             {dato.destacado && (
-                                <p class="font-cormorant text-[#c4838b] text-[clamp(2.5rem,11.5vw,3rem)] leading-[1.05]">
+                                <p class="font-cormorant font-medium text-[#b06a76] text-[clamp(2.5rem,11.5vw,3rem)] leading-[1.05]">
                                     {dato.destacado}
                                 </p>
                             )}
                             {dato.valor.map((linea) => (
-                                <p class="font-cormorant italic text-[#c4838b] text-[clamp(1.25rem,5.8vw,1.48rem)] leading-[1.35] whitespace-nowrap">
+                                <p class="font-cormorant font-medium italic text-[#b06a76] text-[clamp(1.25rem,5.8vw,1.48rem)] leading-[1.35] whitespace-nowrap">
                                     {linea}
                                 </p>
                             ))}

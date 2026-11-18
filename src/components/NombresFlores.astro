@@ -24,7 +24,7 @@ const frase = ["Con el corazón lleno de", "ilusión, queremos invitarte", "a co
 const textoInvitado = "Con mucho cariño, para";
 ---
 
-<section id="nombres-flores" class="relative bg-[#fbf0ee] w-full flex justify-center pt-12 pb-16 px-5 overflow-hidden">
+<section id="nombres-flores" class="relative bg-[#fdf6f4] w-full flex justify-center pt-12 pb-16 px-5 overflow-hidden">
     <div id="petalos-nf" class="capa-petalos"></div>
 
     <div class="relative w-full max-w-[380px]">
@@ -36,7 +36,7 @@ const textoInvitado = "Con mucho cariño, para";
                 <span></span><i></i><span></span>
             </div>
 
-            <p class="font-great-vibes text-[#c4838b] text-[1.95rem] leading-[1.1] mt-4">
+            <p class="font-great-vibes text-[#b06a76] text-[1.95rem] leading-[1.1] mt-4">
                 {anuncio}
             </p>
 
@@ -45,20 +45,20 @@ const textoInvitado = "Con mucho cariño, para";
             </div>
 
             <h1
-                class="font-great-vibes text-[#c4838b] text-[clamp(2.1rem,9.6vw,2.7rem)] leading-[1.2] mt-5 whitespace-nowrap nf-sombra"
+                class="font-great-vibes text-[#b06a76] text-[clamp(2.1rem,9.6vw,2.7rem)] leading-[1.2] mt-5 whitespace-nowrap nf-sombra"
             >
-                {nombre1}<span class="mx-[0.22em] text-[#b8924f]">&amp;</span>{nombre2}
+                {nombre1}<span class="mx-[0.22em] text-[#a98532]">&amp;</span>{nombre2}
             </h1>
 
             <div class="adorno-oro mt-3" aria-hidden="true">
                 <span></span><i></i><span></span>
             </div>
 
-            <p class="font-cormorant text-[#a67f3e] text-[1.15rem] tracking-[0.34em] mt-3 [text-indent:0.34em]">
+            <p class="font-cormorant font-medium text-[#a98532] text-[1.15rem] tracking-[0.34em] mt-3 [text-indent:0.34em]">
                 {fechaCorta}
             </p>
 
-            <p class="font-cormorant italic text-[#c4838b] text-[clamp(1.1rem,4.8vw,1.26rem)] leading-[1.5] mt-4">
+            <p class="font-cormorant font-medium italic text-[#b06a76] text-[clamp(1.1rem,4.8vw,1.26rem)] leading-[1.5] mt-4">
                 {frase.map((linea) => <span class="block whitespace-nowrap">{linea}</span>)}
             </p>
 
@@ -67,10 +67,10 @@ const textoInvitado = "Con mucho cariño, para";
             {
                 invitado && (
                     <div class="nf-invitado mt-8">
-                        <p class="font-cormorant italic text-[#b8924f] text-[0.95rem]">
+                        <p class="font-cormorant font-medium italic text-[#a98532] text-[0.95rem]">
                             {textoInvitado}
                         </p>
-                        <p class="font-charm text-[#c4838b] text-[clamp(1rem,4.6vw,1.2rem)] leading-[1.45] mt-1 max-w-[17rem] mx-auto">
+                        <p class="font-charm text-[#b06a76] text-[clamp(1rem,4.6vw,1.2rem)] leading-[1.45] mt-1 max-w-[17rem] mx-auto">
                             {invitado}
                         </p>
                     </div>
@@ -97,7 +97,7 @@ const textoInvitado = "Con mucho cariño, para";
         letter-spacing: 0.1em;
         text-indent: 0.1em;
         text-transform: uppercase;
-        color: #c4838b;
+        color: #b06a76;
     }
 
     #arco-novios::before {
