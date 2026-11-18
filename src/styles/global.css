@@ -59,17 +59,10 @@
   font-family: 'Balham', serif !important;
 }
 
-/* Fuente personalizada Callingstone */
-@font-face {
-  font-family: 'Callingstone';
-  src: url('/fonts/Callingstone - Personal Use Only.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-
-.font-callingstone {
-  font-family: 'Callingstone', cursive !important;
+/* Montserrat Medium (títulos, rótulos y versículo) */
+.font-montserrat {
+  font-family: 'Montserrat', sans-serif !important;
+  font-weight: 500;
 }
 
 /* Great Vibes y Charm se sirven desde /fonts/ (juego latino, con tildes y
@@ -86,6 +79,15 @@
   font-family: 'Charm';
   src: url('/fonts/Charm-latin.woff2') format('woff2');
   font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Montserrat Medium, desde /fonts (el versículo) */
+@font-face {
+  font-family: 'Montserrat';
+  src: url('/fonts/Montserrat-Medium.otf') format('opentype');
+  font-weight: 500;
   font-style: normal;
   font-display: swap;
 }
