@@ -4,8 +4,7 @@
 //
 // Sin `invitado` no se dibuja el nombre del invitado; sin `pases` no se
 // dibuja la sección de pases.
-// PORTADA_DESACTIVADA: descomentar esta línea y la de abajo para volver a activarla
-// import Portada from "./Portada.astro";
+import Portada from "./Portada.astro";
 import NombresFlores from "./NombresFlores.astro";
 import Versiculo from "./Versiculo.astro";
 import NombresPadres from "./NombresPadres.astro";
@@ -32,7 +31,7 @@ const { invitado, pases } = Astro.props;
 ---
 
 <!-- PORTADA (cubre todo hasta que se toca el sobre) -->
-{/* PORTADA_DESACTIVADA: <Portada invitado={invitado} /> */}
+<Portada invitado={invitado} />
 
 <!-- CONTENIDO DE LA INVITACIÓN -->
 <div id="contenido-principal">
